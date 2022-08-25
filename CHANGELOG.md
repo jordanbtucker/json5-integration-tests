@@ -8,9 +8,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [0.1.0] - 2022-08-25
+
 ### Added
 
 - Initial suite of tests.
 
 [unreleased]:
-  https://github.com/jordanbtucker/json5-integration-tests/commits/HEAD
+  https://github.com/jordanbtucker/json5-integration-tests/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/jordanbtucker/json5-integration-tests/commits/v0.1.0

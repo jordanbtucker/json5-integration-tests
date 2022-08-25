@@ -1,6 +1,6 @@
 {
   "name": "json5-integration-tests",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Integration test suite for json5",
   "private": true,
   "engines": {
