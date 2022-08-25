@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Tests for dynamic imports.
+
 ## [0.1.0] - 2022-08-25
 
 ### Added
