@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/recommended",
+    "plugin:promise/recommended",
+    "plugin:n/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "settings": {
+    "n": {
+      "allowModules": ["json5"]
+    }
+  },
+  "overrides": [
+    {
+      "files": ["test/**", "webpack.config.js"],
+      "rules": {
+        "n/no-unpublished-import": "off",
+        "n/no-unpublished-require": "off"
+      }
+    }
+  ]
+}

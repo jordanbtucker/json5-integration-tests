@@ -1,0 +1,50 @@
+{
+  "name": "json5-integration-tests",
+  "version": "0.0.0",
+  "description": "Integration test suite for json5",
+  "private": true,
+  "engines": {
+    "node": "^14 || ^16 || >=18",
+    "npm": ">=7"
+  },
+  "scripts": {
+    "eslint": "eslint --fix .",
+    "lint": "run-s eslint prettier",
+    "node:test": "node --enable-source-maps test/test.mjs",
+    "prettier": "prettier --loglevel warn -w .",
+    "prepare": "husky install",
+    "tsc:build": "tsc --build",
+    "tsc:clean": "tsc --build --clean",
+    "test": "run-s -c lint tsc:clean tsc:build webpack node:test",
+    "version": "git add CHANGELOG.md",
+    "webpack": "webpack"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "json5": "^2.2.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@tsconfig/node14": "^1.0.3",
+    "chalk": "^5.0.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "fast-glob": "^3.2.11",
+    "globby": "^13.1.2",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "sinon": "^14.0.0",
+    "tap": "^16.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

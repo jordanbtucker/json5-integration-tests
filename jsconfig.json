@@ -1,0 +1,8 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "include": ["lib", "test"],
+  "typeAcquisition": {
+    "enable": true,
+    "include": ["node"]
+  }
+}
