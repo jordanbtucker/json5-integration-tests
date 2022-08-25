@@ -4,6 +4,7 @@
     "composite": true,
     "outDir": "dist",
     "sourceMap": true,
-    "module": "es2020"
+    "module": "es2020",
+    "esModuleInterop": false
   }
 }

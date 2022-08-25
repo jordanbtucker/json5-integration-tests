@@ -12,6 +12,10 @@ and this project adheres to
 
 - Tests for dynamic imports.
 
+### Changed
+
+- TypeScript tests do not require `esModuleInterop` enabled.
+
 ## [0.1.0] - 2022-08-25
 
 ### Added
